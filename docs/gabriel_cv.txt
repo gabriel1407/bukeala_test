@@ -1,0 +1,72 @@
+GABRIEL CARVAJAL
+Ingeniero en Informática
+
+CONTACTO
+---------------------------------------------------------------------------
+[cite_start]Teléfono: 0412 828 1479 [cite: 2]
+[cite_start]Ubicación: Caracas, Venezuela (1030) [cite: 2, 4]
+[cite_start]Email: carvajalgabriel1407@gmail.com [cite: 3]
+
+PERFIL PROFESIONAL
+---------------------------------------------------------------------------
+Ingeniero en Informática especializado en desarrollo backend y creación de 
+[cite_start]aplicaciones web escalables, APIs RESTful y microservicios[cite: 35, 36]. 
+Experto en Python, Django y Node.js, con enfoque en seguridad, rendimiento 
+[cite_start]e integración de IA y chatbots avanzados (MCP)[cite: 37, 38]. Experiencia 
+[cite_start]en equipos internacionales y metodologías ágiles[cite: 39].
+
+EXPERIENCIA LABORAL
+---------------------------------------------------------------------------
+Desarrollador Backend | Aulasneo (Argentina)
+[cite_start]Diciembre 2024 – Febrero 2026 [cite: 41, 42]
+
+* Implementación de chatbots avanzados con Model Context Protocol (MCP) 
+  [cite_start]para acceso seguro a datos en tiempo real[cite: 43].
+* Diseño de herramientas mcp.tools para ejecución de acciones backend e 
+  [cite_start]interacción con microservicios[cite: 44].
+* Desarrollo de APIs escalables con Django/Python para optimizar la 
+  [cite_start]plataforma Open edX con IA[cite: 45].
+* Gestión de infraestructura con Docker, Kubernetes y Amazon S3 en 
+  [cite_start]servidores Linux[cite: 46].
+* Transición de integraciones de IA hacia arquitecturas modulares para 
+  [cite_start]conexión de LLMs (GPT, Claude)[cite: 47].
+* [cite_start]Documentación técnica en inglés y colaboración mediante GitHub[cite: 48].
+
+Programador Backend | Pegaso Consulting C.A (Caracas, Venezuela)
+[cite_start]Mayo 2021 – Noviembre 2024 [cite: 50, 51]
+
+* Desarrollo de aplicaciones web y APIs RESTful utilizando Python y 
+  [cite_start]Django[cite: 49, 52].
+* [cite_start]Implementación de arquitecturas de microservicios con Node.js[cite: 53].
+* [cite_start]Diseño y optimización de bases de datos PostgreSQL[cite: 54].
+* [cite_start]Administración y despliegue de servicios en entornos Linux[cite: 55].
+* Creación de chatbots automatizados en Python para mejorar la experiencia 
+  [cite_start]de usuario[cite: 56].
+* [cite_start]Control de versiones con Git y flujos de trabajo colaborativos[cite: 57].
+
+FORMACIÓN ACADÉMICA
+---------------------------------------------------------------------------
+* Ingeniero en Informática | [cite_start]Universidad Alejandro de Humboldt [cite: 6, 7]
+* Bachiller en Ciencias | U.E.P. [cite_start]El Arias [cite: 8, 9]
+
+CURSOS Y CERTIFICACIONES
+---------------------------------------------------------------------------
+* [cite_start]Master en Python: Python 3, Django, Flask y Tkinter (Udemy, 2022) [cite: 11]
+* [cite_start]Node.js: De Cero a Experto (Udemy, 2023) [cite: 12, 13]
+
+HABILIDADES TÉCNICAS
+---------------------------------------------------------------------------
+* [cite_start]Lenguajes/Frameworks: Python, Django, Node.js, PHP Laravel, React [cite: 15, 17, 23, 25]
+* [cite_start]Base de Datos: PostgreSQL, Redis [cite: 18, 24]
+* [cite_start]DevOps/Herramientas: Docker, Kubernetes, Git, GitHub, Linux [cite: 19, 21, 22]
+* [cite_start]Especialidades: Microservicios, APIs RESTful, Chatbots e IA [cite: 16, 20]
+
+APTITUDES
+---------------------------------------------------------------------------
+Pensamiento analítico, aprendizaje continuo, trabajo en equipo, orientación 
+[cite_start]a resultados, comunicación técnica y adaptabilidad[cite: 27, 28, 29, 30, 31, 33].
+
+OBJETIVO PROFESIONAL
+---------------------------------------------------------------------------
+Desarrollarme como Backend Senior, aportando soluciones robustas en proyectos 
+[cite_start]innovadores de cloud computing e inteligencia artificial[cite: 58, 59].

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Local env
+.env
+
+# Terraform generated files
+infra/terraform/.terraform/
+infra/terraform/artifacts/
+infra/terraform/terraform.tfstate
+infra/terraform/terraform.tfstate.*
+infra/terraform/terraform.tfstate.d/
+
+# Terraform local variable files (keep examples)
+infra/terraform/*.tfvars
+!infra/terraform/*.tfvars.example
