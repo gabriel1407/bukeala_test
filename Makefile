@@ -1,4 +1,4 @@
-.PHONY: help terraform-init terraform-plan terraform-apply terraform-apply-real terraform-output test clean-venv
+.PHONY: help terraform-init terraform-plan terraform-apply terraform-apply-real terraform-output upload-cv-s3 test clean-venv
 
 AWS_PROFILE ?= default
 TF_DIR ?= infra/terraform
@@ -6,6 +6,9 @@ TF_WORKSPACE ?= aws-real
 TF_VAR_FILE ?= aws-account.tfvars
 PYTHON ?= python3
 VENV_DIR ?= .venv
+BUCKET_NAME ?= bukeala-buckets-test
+CV_FILE ?= docs/gabriel_cv.txt
+CV_ID ?= gabriel_cv
 
 help:
 	@echo "Targets disponibles:"
@@ -14,6 +17,7 @@ help:
 	@echo "  make terraform-apply  -> aplica cambios en AWS"
 	@echo "  make terraform-apply-real -> aplica directo en workspace aws-real"
 	@echo "  make terraform-output -> muestra outputs"
+	@echo "  make upload-cv-s3     -> sube CV directo a S3 (sin API)"
 	@echo "  make test             -> corre tests unitarios de Python"
 
 terraform-init:
@@ -36,6 +40,11 @@ terraform-apply-real:
 terraform-output:
 	AWS_PROFILE=$(AWS_PROFILE) terraform -chdir=$(TF_DIR) workspace select $(TF_WORKSPACE)
 	AWS_PROFILE=$(AWS_PROFILE) terraform -chdir=$(TF_DIR) output
+
+upload-cv-s3:
+	@echo "Subiendo $(CV_FILE) a S3 como cv/$(CV_ID).txt..."
+	AWS_PROFILE=$(AWS_PROFILE) aws s3 cp $(CV_FILE) s3://$(BUCKET_NAME)/cv/$(CV_ID).txt --content-type text/plain
+	@echo "✅ Archivo subido. Lambda process_cv se ejecutará automáticamente."
 
 test:
 	$(PYTHON) -m venv $(VENV_DIR)
